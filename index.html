@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Sharma - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-awsG/AU99CfT5ZP5bBRx6szRK4WUc2ARe3JO8Qvt8Y5pVVao9Rl3uE+ORCBN5ZmLFlTrHkOSTQbH47bElHtNEVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 2em;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header div {
+            flex: 1;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        header img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+
+        section {
+            width: 45%;
+            max-width: 400px;
+            margin: 20px;
+            padding: 40px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        h2,
+        h3 {
+            color: #00796b;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        .education,
+        .research,
+        .skills,
+        .projects,
+        .summary {
+            margin-bottom: 40px;
+        }
+
+        .education:hover,
+        .research:hover,
+        .skills:hover,
+        .projects:hover {
+            transform: scale(1.03);
+        }
+
+        .education {
+            background-color: #b2dfdb;
+        }
+
+        .research {
+            background-color: #c5e1a5;
+        }
+
+        .skills {
+            background-color: #ffd54f;
+        }
+
+        .projects {
+            background-color: #d1c4e9;
+        }
+
+        .summary {
+            background-color: #ffccbc;
+        }
+
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        a {
+            color: #2196F3;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #1565C0;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Akshat Sharma</h1>
+            <p>Machine Learning and AI Enthusiast</p>
+        </div>
+        <img src="profile.jpg" alt="Akshat Sharma's Photo">
+    </header>
+
+    <main>
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Master of Science in Computer Science (ongoing)</strong> - <a
+                        href="https://www.uregina.ca/?gclid=Cj0KCQiA2eKtBhDcARIsAEGTG43xmX5KkBXx468dxMiah11TlMqavWJHKlnwQy6jB5O33TOo1W8Yy6IaAq6MEALw_wcB">University of Regina</a>, Regina, Canada</li>
+                <li><strong>Bachelor of Technology: Computer Science With Specialization in AI & ML</strong> - <a
+                        href="https://chennai.vit.ac.in/">Vellore Institute of Technology</a> - Chennai, India (GPA: 8.20/10.00)</li>
+                <li>Graduated: July 2019 - August 2023</li>
+            </ul>
+        </section>
+
+        <section class="research">
+            <h2>Research Experience</h2>
+            <ul>
+                <li>
+                    <h3>Research Intern at Ericsson Global R&D (December 2022 - July 2023)</h3>
+                    <ul>
+                        <li>Implemented an Anomaly Detection Algorithm as part of the research team.</li>
+                        <li>Collaborated with cross-functional teams to develop and fine-tune the algorithm for optimal
+                            performance.</li>
+                        <li>Authored a research paper titled "Adaptive Thresholding Heuristic for KPI Anomaly
+                            Detection."</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Research Intern at Mitacs Globalinks Canada (May 2022 - August 2022)</h3>
+                    <ul>
+                        <li>Implemented Federated Learning (FL) algorithms, a cutting-edge approach in Deep Learning.</li>
+                        <li>Gained hands-on experience and deepened knowledge in the field using Cifar10 and Alzheimer's
+                            Dataset.</li>
+                        <li>Employed a client-server model approach using the Avalanche library to achieve results.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Relevant Skills</h2>
+            <p>Experienced in implementing cutting-edge machine learning algorithms and technologies, with proficiency
+                in:</p>
+            <ul>
+                <li>Implemented Learning Without Forgetting (LWF) algorithm from scratch on Split-MNIST dataset using
+                    PyTorch.</li>
+                <li>Implemented Elastic Weight Consolidation (EWC) theory on Permuted-MNIST and Split-CIFAR10 dataset
+                    from scratch.</li>
+                <li>Created multiple text classifiers for multiple labels using Bert service and classic NLP
+                    approach.</li>
+                <li>Implemented a handwriting-to-text conversion system employing Beam search and NLP techniques.</li>
+                <li>Implemented ACGAN and WGAN on a Split-CIFAR10 dataset.</li>
+                <li>Currently working on launching a startup involving React, Flask, Python, PyTorch, and other related
+                    technologies.</li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Involved in various impactful projects, viewable on <a href="https://github.com/Akshat978"
+                        target="_blank">GitHub</a>.</li>
+                <li>Active <a href="https://www.linkedin.com/in/akshat-sharma18/" target="_blank">LinkedIn</a> profile
+                    for professional networking.</li>
+            </ul>
+        </section>
+
+        <section class="summary">
+            <h2>Personal Summary</h2>
+            <p>Highly motivated and dedicated student with a passion for cutting-edge technologies and advancements in
+                the field of machine learning and artificial intelligence. Experienced in implementing innovative
+                algorithms and conducting impactful research projects, recognized for exceptional performance in
+                internships, and awarded for outstanding contributions. Committed to driving advancements in the
+                industry and eager to contribute expertise to impactful projects.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: <a href="mailto:akshat.vhs@gmail.com">akshat.vhs@gmail.com</a> | &copy; 2024 Akshat Sharma. All
+            Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
